@@ -3,10 +3,15 @@ def count_strings(array)
   
   array.count do 
     |x|
-      x.class= String
+      x.class== String
   end
 end
 
 def count_empty_strings(array)
   # Return the total number of EMPTY strings in the provided array using the count enumerable
+  
+  arra.count do 
+    |x|
+      x.class== ""
+  end
 end
