@@ -12,7 +12,7 @@ def count_empty_strings(array)
   
   array.count do 
     |x|
-      x.empty?
+      x.class.empty?
   end
   
 end
