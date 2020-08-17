@@ -3,7 +3,6 @@ def count_strings(array)
   
   array.count{ 
     |num|
-    num>0
   }
 end
 
